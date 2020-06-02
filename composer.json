@@ -1,0 +1,18 @@
+{
+    "name": "hillel/budget_component",
+    "description": "Tutuorial Annonation project",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Budget\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "^5.2@dev",
+        "doctrine/annotations": "^1.11@dev",
+        "pimple/pimple": "~3.0",
+        "fpdf/fpdf": "^1.82"
+    }
+}
